@@ -11,8 +11,6 @@ Minha tríade de desenvolvimento: **Computação Profunda** (Bits & Protocols), 
 
 ## 🏗️ End-to-End Engineering (O que eu realmente faço)
 
-Não sou apenas um operador de ferramentas. Eu entendo e configuro cada etapa do fluxo de dados e sua proteção:
-
 ### 📡 Core Networking & Routing
 Onde o pacote nasce e trafega.
 * **Fundamentos:** Desenho completo de Subnetting (VLSM), definição de rotas estáticas e dinâmicas e Gateway management.
