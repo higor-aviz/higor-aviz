@@ -14,13 +14,14 @@ Minha tríade de desenvolvimento: **Computação Profunda** (Bits & Protocols), 
 ### 📡 Core Networking & Routing
 Onde o pacote nasce e trafega.
 * **Fundamentos:** Desenho completo de Subnetting (VLSM), definição de rotas estáticas e dinâmicas e Gateway management.
-* **Manipulação de Tráfego:** Domínio de **NAT/SNAT/DNAT** (iptables/Netfilter), DHCP Servers (Escopos, Reservas), e DNS interno/externo.
+* **Manipulação de Tráfego:** Domínio de **NAT/SNAT/DNAT**, DHCP Servers (Escopos, Reservas), e DNS interno/externo.
 * **Resiliência:** Implementação de Failover, Load Balancing e segmentação via VLANs (L2/L3).
 
 ### 🛡️ Security Operations (SecOps)
 Onde a proteção acontece.
+* **Firewall Engineering:** Domínio profundo de **Linux Firewalls (iptables/nftables)** e Appliances corporativos. Criação de regras complexas, inspeção de pacotes (Stateful), gestão de zonas de segurança (DMZ) e troubleshooting avançado de conexões (análise de logs/flags TCP).
 * **Endpoint Defense:** Administração avançada de **Bitdefender GravityZone**. Implementação de políticas de Content Control, gestão de regras de bloqueio/liberação granular e análise de incidentes (Debug de falsos positivos e ameaças reais).
-* **Perímetro:** Hardening de servidores e segregação de redes para redução de superfície de ataque.
+* **Perímetro & Hardening:** Segregação de redes para redução de superfície de ataque e blindagem de servidores expostos.
 * **Business Continuity:** Implementação e gestão de rotinas de Backup em Nuvem e Disaster Recovery com **Acronis Cyber Protect**, garantindo a resiliência de dados críticos contra Ransomware e falhas catastróficas.
 
 ### 🖥️ Systems & Identity
@@ -66,7 +67,7 @@ A validação formal da minha competência técnica:
 ### 🎯 Em Preparação (Roadmap)
 * **Cisco CCNA** (Consolidação de Redes).
 * **LPIC-1** (Linux Professional Institute).
----
 
+---
 
 > *"Conhece o inimigo e a ti mesmo e não temerás o resultado de cem batalhas." — Sun Tzu*
