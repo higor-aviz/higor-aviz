@@ -34,7 +34,7 @@ Minha experiência técnica comprovada:
 
 Onde documento a prática:
 
-### 🏴‍☠️ [homelab-playground]([https://github.com/SeuUsuario/homelab-playground](https://github.com/higor-aviz/homelab-playground])
+### 🏴‍☠️ [homelab-playground]([https://github.com/SeuUsuario/homelab-playground](https://github.com/higor-aviz/homelab-playground))
 > **Laboratório de Testes.**
 > Ambiente isolado para simulação de ataques, túneis VPN e testes de serviços.
 > * [Onde eu quebro as coisas propositalmente para não ter que explicar por que elas quebraram em produção na segunda-feira de manhã.]
