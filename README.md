@@ -34,17 +34,17 @@ Minha experiência técnica comprovada:
 
 Onde documento a prática:
 
-### 🏴‍☠️ [homelab-playground]([https://github.com/SeuUsuario/homelab-playground](https://github.com/higor-aviz/homelab-playground))
+### 🏴‍☠️ [homelab-playground](https://github.com/higor-aviz/homelab-playground))
 > **Laboratório de Testes.**
 > Ambiente isolado para simulação de ataques, túneis VPN e testes de serviços.
 > * [Onde eu quebro as coisas propositalmente para não ter que explicar por que elas quebraram em produção na segunda-feira de manhã.]
 
-### 🛡️ [infrastructure-case-studies]([https://github.com/SeuUsuario/infrastructure-case-studies](https://github.com/higor-aviz/infra-case-studies))
+### 🛡️ [infrastructure-case-studies](https://github.com/higor-aviz/infra-case-studies))
 > **Estudos de Caso.**
 > Documentação técnica de ambientes que projetei ou resgatei.
 > * *Destaques:* Migrações críticas de Datacenter e redesenho de topologias inseguras.
 
-### ⚡ [sysadmin-automation-scripts]([https://github.com/SeuUsuario/sysadmin-automation-scripts](https://github.com/higor-aviz/automation-scripts))
+### ⚡ [sysadmin-automation-scripts](https://github.com/higor-aviz/automation-scripts))
 > **Automação.**
 > Scripts em Bash/PowerShell para tarefas repetitivas.
 > * [Filosofia da preguiça eficiente: se tive que fazer a mesma tarefa manual três vezes, ela vira um script.]
