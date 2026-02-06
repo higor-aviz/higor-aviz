@@ -27,7 +27,7 @@ Atualmente, dedico meus estudos à **Arquitetura de Computadores e Internals de 
 
 ## 🏛️ Projetos de Engenharia
 
-### 🏗️ [Infrastructure Case Studies](https://github.com/seu-user/infra-case-studies)
+### 🏗️ [Infrastructure Case Studies](https://github.com/higor-aviz/infra-case-studies)
 Repositório centralizando arquiteturas complexas e resoluções de cenários reais.
 * **Destaque:** Implementação de infraestrutura Enterprise (Bare-metal ao Domínio) para alta densidade de usuários, segmentação de redes críticas e políticas de DR.
 
