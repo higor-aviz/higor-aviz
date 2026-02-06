@@ -27,14 +27,14 @@ Atualmente, dedico meus estudos à **Arquitetura de Computadores e Internals de 
 
 ## 🏛️ Projetos de Engenharia
 
-### 🏗️ [infrastructure-architecture-cases](https://github.com/seu-user/infrastructure-architecture-cases)
+### 🏗️ [infrastructure-architecture-cases](https://github.com/higor-aviz/infrastructure-architecture-cases)
 Estudos de caso de arquiteturas reais e implementações de infraestrutura complexas.
 * **Destaque:** Implementação de ambiente Enterprise (Bare-metal ao Domínio) para alta densidade de usuários e segmentação de redes críticas.
 
-### 🔬 [low-level-lab](https://github.com/seu-user/low-level-lab)
+### 🔬 [low-level-lab](https://github.com/higor-aviz/low-level-lab)
 Pesquisa e desenvolvimento em camadas baixas: Assembly x86_64, gerência de memória em C, exploração de System Calls e análise de binários.
 
-### 🛡️ [network-security-tooling](https://github.com/seu-user/network-security-tooling)
+### 🛡️ [network-security-tooling](https://github.com/higor-aviz/network-security-tooling)
 Desenvolvimento de ferramentas personalizadas para auditoria de rede, automação de hardening e análise de vulnerabilidades em sistemas.
 
 ---
