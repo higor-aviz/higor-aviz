@@ -1,72 +1,57 @@
-# Olá. Bem-vindo ao meu Core.
+# Higor Cauê de Aviz Castro | Systems & Network Engineer
 
-Sou um profissional de **Infrastructure Full Stack** e graduando em **Engenharia de Computação**.
+Sou graduando em **Engenharia de Computação** e focado na construção de infraestruturas resilientes sob a perspectiva de **baixo nível**. Minha abordagem une a administração de sistemas tradicionais à engenharia de redes e segurança, buscando entender o fluxo do dado desde o silício até a camada de aplicação.
 
-Minha atuação é focada na arquitetura real: eu garanto a integridade física e lógica dos dados. Atuo construindo e reconstruindo ambientes (**Greenfield/Brownfield**), transformando soluções temporárias em engenharia definitiva.
-
-Atualmente, estou migrando minha base de infraestrutura para **Engenharia de Redes e Cibersegurança (Red Team)**.
-*Motivo:* A análise de vulnerabilidades exige o mesmo rigor da construção, mas com uma perspectiva adversarial. [E também porque é muito mais divertido encontrar falhas do que explicar pela décima vez que o problema é o DNS.]
+Atualmente, dedico meus estudos à **Arquitetura de Computadores e Internals de Sistemas Operacionais**, visando a transição para engenharia de segurança ofensiva e defesa de infraestrutura crítica.
 
 ---
 
-## 🛠️ Stack & Realidade
+## 🛠️ Stack Técnica & Domínio de Engenharia
 
-Minha experiência técnica comprovada:
+### 📡 Networking & Core Infrastructure
+* **Layer 2/3:** Segmentação avançada via VLANs (802.1Q), protocolos de roteamento e comutação em ambientes multi-vendor.
+* **Traffic Engineering:** Gestão de Gateways, implementação de Load Balancing e regras granulares de NAT/DNAT.
+* **Network Security:** Filtragem de pacotes (Stateful Inspection) e análise de tráfego para redução de superfície de ataque.
 
-### 📡 Redes & Conectividade
-* **Fundamentos:** Domínio de Subnetting (VLSM), Roteamento Estático/Dinâmico e arquitetura TCP/IP. [Lembrando sempre que a "Nuvem" é apenas o computador de outra pessoa com um SLA melhor.]
-* **Infraestrutura:** Configuração de Switches L2/L3 e segmentação rigorosa via VLANs. [Porque deixar a rede Wi-Fi da recepção falar com o servidor financeiro é pedir para ter dor de cabeça.]
-* **Tráfego:** Gerenciamento de Gateway, Load Balancing e regras complexas de NAT/DNAT. [Basicamente, eu faço o pacote chegar no destino, mesmo que ele não queira.]
+### 🛡️ Security Operations & Data Integrity
+* **Defesa de Endpoint:** Gestão de políticas de segurança baseadas em heurística e controle de conteúdo (Bitdefender GravityZone).
+* **Business Continuity:** Design e implementação de estratégias de Disaster Recovery e Backup 3-2-1 (Certificado Acronis).
+* **Hardening:** Proteção de superfícies em ambientes Windows Server e sistemas Linux.
 
-### 🛡️ Security Operations & Disaster Recovery
-* **Endpoint Defense:** Gestão avançada de **Bitdefender GravityZone**. Criação de políticas de Content Control e análise de heurística. [Minha missão é blindar o sistema contra a inesgotável criatividade dos usuários em clicar em links suspeitos.]
-* **Business Continuity:** Especialista certificado em **Acronis Cyber Protect**. Implementação de rotinas de Backup 3-2-1 e Disaster Recovery. [Porque "eu acho que copiei os arquivos" não é uma estratégia de backup válida.]
-* **Perímetro:** Noções sólidas de Firewall (Stateful Inspection) e redução de superfície de ataque. [A regra é clara: se não tem um motivo documentado para estar aberto, estará fechado.]
-
-### 🖥️ Sistemas & Virtualização
-* **Virtualização:** Gestão de clusters **Proxmox VE** e **VMware**. Especialista em migrações P2V. [Famoso por salvar aquele hardware legado crítico que a empresa deveria ter aposentado em 2015 mas "não tem budget".]
-* **Identity:** Configuração de **Active Directory** do zero. Gestão de DNS, DHCP e aplicação de GPOs de segurança. [GPOs rigorosas são essenciais, porque a democracia não funciona bem na administração de sistemas.]
-* **Servidores:** Provisionamento e hardening de Windows Server e Linux.
+### 🖥️ Virtualização & Kernel Land
+* **Hypervisors:** Administração de clusters **Proxmox VE (KVM/LXC)** e VMware ESXi.
+* **Sistemas:** Migrações críticas P2V (Physical-to-Virtual) e orquestração de recursos de hardware.
+* **Identity Management:** Implementação de Active Directory do zero, estruturando serviços essenciais (DNS, DHCP, GPOs) sob princípios de *Least Privilege*.
 
 ---
 
-## 🏛️ Projetos & Repositórios
+## 🏛️ Projetos de Engenharia
 
-Onde documento a prática:
+### 🏗️ [Enterprise Infra: From Bare-Metal to Domain](https://github.com/seu-user/projeto-infra)
+Documentação técnica da implementação de uma infraestrutura para 100 usuários, partindo do hardware bruto até a governança de identidade.
+* **Destaques:** Segmentação de rede para alta densidade e políticas de DR.
 
-### 🏴‍☠️ [homelab-playground](https://github.com/higor-aviz/homelab-playground)
-> **Laboratório de Testes.**
-> Ambiente isolado para simulação de ataques, túneis VPN e testes de serviços.
-> * [Onde eu quebro as coisas propositalmente para não ter que explicar por que elas quebraram em produção na segunda-feira de manhã.]
+### 🔬 [Systems-Architecture-Studies](https://github.com/seu-user/low-level)
+Repositório central de estudos em baixo nível: Assembly x86_64, gerência de memória em C e exploração de System Calls no Linux.
 
-### 🛡️ [infrastructure-case-studies](https://github.com/higor-aviz/infra-case-studies)
-> **Estudos de Caso.**
-> Documentação técnica de ambientes que projetei ou resgatei.
-> * *Destaques:* Migrações críticas de Datacenter e redesenho de topologias inseguras.
-
-### ⚡ [sysadmin-automation-scripts](https://github.com/higor-aviz/automation-scripts)
-> **Automação.**
-> Scripts em Bash/PowerShell para tarefas repetitivas.
-> * [Filosofia da preguiça eficiente: se tive que fazer a mesma tarefa manual três vezes, ela vira um script.]
+### ⚡ [Infrastructure-as-Code & Automation](https://github.com/seu-user/automation)
+Desenvolvimento de ferramentas em Bash e PowerShell para automação de tarefas sistêmicas e hardening de servidores.
 
 ---
 
-## 📜 Credenciais
+## 📜 Formação & Certificações
 
-### 🏆 Certificações Profissionais
-* **Acronis Certified Engineer:** Cloud Tech Professional Advanced Disaster Recovery.
-* **Acronis Certified:** Cloud Tech Professional Advanced Backup.
-* **Acronis Certified:** Cloud Tech Professional Advanced Security.
+### 🏆 Certificações Ativas
+* **Acronis Certified Engineer:** Advanced Disaster Recovery & Cloud Security.
+* **Acronis Certified:** Advanced Backup Professional.
 
-### 🎓 Academia
-* **Bacharelado em Engenharia de Computação** (2º Ano / Em curso).
-* *Status:* Focando em Matemática Aplicada e Física. [Transformando café em código e cálculo diferencial em lágrimas.]
+### 🎓 Acadêmico
+* **Bacharelado em Engenharia de Computação** (Em curso).
+* **Foco atual:** Álgebra Linear, Física de Semicondutores e Organização de Computadores.
 
-### 🎯 Roadmap (Estudos Atuais)
-* **Cisco CCNA** (Consolidação de Protocolos).
-* **LPIC-1** (Administração Linux).
-* **Firewalls Avançados:** Aprofundamento em Netfilter/iptables.
+### 🎯 Roadmap de Especialização
+* **CCNA & LPIC-1:** Consolidação de networking e internals de Linux.
+* **Low-Level Security:** Estudo de exploração de binários e segurança de memória.
 
 ---
-
-> *"Na teoria, não há diferença entre teoria e prática. Na prática, há."*
+> *"Construir sistemas robustos exige o entendimento das abstrações que os sustentam."*
