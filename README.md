@@ -11,31 +11,31 @@ Atualmente, dedico meus estudos à **Arquitetura de Computadores e Internals de 
 ### 📡 Networking & Core Infrastructure
 * **Layer 2/3:** Segmentação avançada via VLANs (802.1Q), protocolos de roteamento e comutação em ambientes multi-vendor.
 * **Traffic Engineering:** Gestão de Gateways, implementação de Load Balancing e regras granulares de NAT/DNAT.
-* **Network Security:** Filtragem de pacotes (Stateful Inspection) e análise de tráfego para redução de superfície de ataque.
+* **Network Security:** Filtragem de pacotes (Stateful Inspection), eBPF e análise de tráfego para redução de superfície de ataque.
 
 ### 🛡️ Security Operations & Data Integrity
-* **Defesa de Endpoint:** Gestão de políticas de segurança baseadas em heurística e controle de conteúdo (Bitdefender GravityZone).
-* **Business Continuity:** Design e implementação de estratégias de Disaster Recovery e Backup 3-2-1 (Certificado Acronis).
-* **Hardening:** Proteção de superfícies em ambientes Windows Server e sistemas Linux.
+* **Defesa de Endpoint:** Gestão de políticas de segurança baseadas em heurística e análise de vetores de ataque (Bitdefender GravityZone).
+* **Business Continuity:** Design de estratégias de Disaster Recovery e Backup 3-2-1 sob conformidade técnica (Certificado Acronis).
+* **Hardening:** Fortalecimento de superfícies de ataque em kernels Linux e ambientes Windows Server.
 
 ### 🖥️ Virtualização & Kernel Land
 * **Hypervisors:** Administração de clusters **Proxmox VE (KVM/LXC)** e VMware ESXi.
-* **Sistemas:** Migrações críticas P2V (Physical-to-Virtual) e orquestração de recursos de hardware.
-* **Identity Management:** Implementação de serviços essenciais (DNS, DHCP, AD/Samba4) sob princípios de *Least Privilege*.
+* **Sistemas:** Migrações críticas P2V (Physical-to-Virtual) e orquestração direta de recursos de hardware.
+* **Identity Management:** Governança de serviços de identidade e diretório (Samba4/AD) sob princípios de *Least Privilege*.
 
 ---
 
 ## 🏛️ Projetos de Engenharia
 
-### 🏗️ [Infrastructure Case Studies](https://github.com/higor-aviz/infra-case-studies)
-Repositório centralizando arquiteturas complexas e resoluções de cenários reais.
-* **Destaque:** Implementação de infraestrutura Enterprise (Bare-metal ao Domínio) para alta densidade de usuários, segmentação de redes críticas e políticas de DR.
+### 🏗️ [infrastructure-architecture-cases](https://github.com/seu-user/infrastructure-architecture-cases)
+Estudos de caso de arquiteturas reais e implementações de infraestrutura complexas.
+* **Destaque:** Implementação de ambiente Enterprise (Bare-metal ao Domínio) para alta densidade de usuários e segmentação de redes críticas.
 
-### 🔬 [Systems-Architecture-Studies](https://github.com/seu-user/low-level)
-Repositório central de estudos em baixo nível: Assembly x86_64, gerência de memória em C e exploração de System Calls no Linux.
+### 🔬 [low-level-lab](https://github.com/seu-user/low-level-lab)
+Pesquisa e desenvolvimento em camadas baixas: Assembly x86_64, gerência de memória em C, exploração de System Calls e análise de binários.
 
-### ⚡ [Infrastructure-as-Code & Automation](https://github.com/seu-user/automation)
-Desenvolvimento de ferramentas em Bash e PowerShell para automação de tarefas sistêmicas, auditoria de logs e hardening de servidores.
+### 🛡️ [network-security-tooling](https://github.com/seu-user/network-security-tooling)
+Desenvolvimento de ferramentas personalizadas para auditoria de rede, automação de hardening e análise de vulnerabilidades em sistemas.
 
 ---
 
@@ -51,7 +51,7 @@ Desenvolvimento de ferramentas em Bash e PowerShell para automação de tarefas 
 
 ### 🎯 Roadmap de Especialização
 * **CCNA & LPIC-1:** Consolidação de networking e internals de Linux.
-* **Low-Level Security:** Estudo de exploração de binários e segurança de memória.
+* **Low-Level Security:** Exploração de vulnerabilidades de memória (Buffer Overflow, Heap Exploitation).
 
 ---
 > *"Construir sistemas robustos exige o entendimento das abstrações que os sustentam."*
