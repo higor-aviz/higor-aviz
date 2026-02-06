@@ -1,4 +1,4 @@
-# Higor Cauê de Aviz Castro | Systems & Network Engineer
+# [Seu Nome Completo] | Systems & Network Engineer
 
 Sou graduando em **Engenharia de Computação** e focado na construção de infraestruturas resilientes sob a perspectiva de **baixo nível**. Minha abordagem une a administração de sistemas tradicionais à engenharia de redes e segurança, buscando entender o fluxo do dado desde o silício até a camada de aplicação.
 
@@ -21,21 +21,21 @@ Atualmente, dedico meus estudos à **Arquitetura de Computadores e Internals de 
 ### 🖥️ Virtualização & Kernel Land
 * **Hypervisors:** Administração de clusters **Proxmox VE (KVM/LXC)** e VMware ESXi.
 * **Sistemas:** Migrações críticas P2V (Physical-to-Virtual) e orquestração de recursos de hardware.
-* **Identity Management:** Implementação de Active Directory do zero, estruturando serviços essenciais (DNS, DHCP, GPOs) sob princípios de *Least Privilege*.
+* **Identity Management:** Implementação de serviços essenciais (DNS, DHCP, AD/Samba4) sob princípios de *Least Privilege*.
 
 ---
 
 ## 🏛️ Projetos de Engenharia
 
-### 🏗️ [Enterprise Infra: From Bare-Metal to Domain](https://github.com/seu-user/projeto-infra)
-Documentação técnica da implementação de uma infraestrutura para 100 usuários, partindo do hardware bruto até a governança de identidade.
-* **Destaques:** Segmentação de rede para alta densidade e políticas de DR.
+### 🏗️ [Infrastructure Case Studies](https://github.com/seu-user/infra-case-studies)
+Repositório centralizando arquiteturas complexas e resoluções de cenários reais.
+* **Destaque:** Implementação de infraestrutura Enterprise (Bare-metal ao Domínio) para alta densidade de usuários, segmentação de redes críticas e políticas de DR.
 
 ### 🔬 [Systems-Architecture-Studies](https://github.com/seu-user/low-level)
 Repositório central de estudos em baixo nível: Assembly x86_64, gerência de memória em C e exploração de System Calls no Linux.
 
 ### ⚡ [Infrastructure-as-Code & Automation](https://github.com/seu-user/automation)
-Desenvolvimento de ferramentas em Bash e PowerShell para automação de tarefas sistêmicas e hardening de servidores.
+Desenvolvimento de ferramentas em Bash e PowerShell para automação de tarefas sistêmicas, auditoria de logs e hardening de servidores.
 
 ---
 
